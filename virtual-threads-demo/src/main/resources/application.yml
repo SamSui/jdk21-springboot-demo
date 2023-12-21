@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: virtual-threads
+  threads:
+    virtual:
+      enabled: true
+logging:
+  config: classpath:log4j2.xml
+
